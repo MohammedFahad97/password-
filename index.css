@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+/* Scrimba Solo Project: Random Password Generator (Dark) */
+body{
+    
+margin-top: 40px;
+margin-right: 110px;
+
+width: 1253px;
+height: 678px;
+
+background: #1C1C1C;
+
+/* populated-state */
+
+    
+
+width: 550px;
+height: 550px;
+left: 642px;
+top: 64px;
+
+background: #1F2937;
+}
+
+h1{
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 100px;
+    font-family:'Poiret One';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    color: #ffffff;
+}
+h2{
+   line-height: 260px;
+    position: absolute ;
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight:bolder;
+    font-size: 100px ;
+    
+    letter-spacing: -0.025em;
+    color: #10b981;
+}
+h3{
+    margin-top: 280px;
+    position: absolute;
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #D5D4D8;
+}
+button {
+    border: none;
+    font-family: 'Poiret One';
+    margin-top: 340px;
+    width: 191px;
+    height: 42px;
+  
+    color: #fff;
+    background: #10b981;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+  
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+  
+    
+  }
+  
+  button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .passwords {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #2f3e53;
+    padding-top: 39px;
+  }
+  
+  .password {
+
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .password:hover {
+    filter: brightness(1.5);
+    cursor: pointer;
+  }
+  
+  .password p {
+    padding: 0 10px;
+    color: #55f991;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+  
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .copy.hidden {
+    display: none;
+  }
+  .btn{
+    width: 211px;
+    height: 39px;
+    background:fixed;
+    border-radius: 6px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
